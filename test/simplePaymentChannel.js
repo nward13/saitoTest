@@ -103,10 +103,6 @@ contract('SimplePaymentChannel', function(accounts) {
         const totalGas = createGas + withdrawGas1 + withdrawGas2;
         console.log("Total gas used by payment channel: ", totalGas);
 
-        // 
-        const bep = totalGas / transferGas;
-        console.log("Break-even point for a payment channel: ", bep.toFixed(2), " transactions");
-
     });
 
 
